@@ -1,0 +1,72 @@
+/*Elimina l'espai predeterminat del body*/
+body{
+    margin: 0;
+    padding: 0;
+}
+/*Defineix l'estil, posició i color de la barra en la que està el títol (header)*/
+header{
+    background-color: #1C061A;
+    font-family: Helvetica;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    position: fixed;
+    left: 1;
+    top: 1;
+    width: 100%;
+}
+
+/*Defineix l'estil i color de la barra on estan els links*/
+/*A més, té la posició "sticky", la qual l'adhereix al header*/
+
+nav{
+    background-color: #2E0A2B;
+    position: sticky;
+    top: 1px;
+    color: white;
+    text-align: center;
+    position: sticky;
+    top: 1.7em;
+}
+
+/*Defineix la font, el color i el tamany de tots els links*/
+
+a{
+    color: white;
+    font-family: Helvetica;
+    font-size: 1 em;
+}
+
+/*Defineix l'estil de les seccions*/
+/*Totes les seccions tenen el mateix estil de font, espais, margins i paddings, però varia el color*/
+
+.h2Section1{
+    padding: 0.5em;
+    margin: 0.5em;
+    background-color: #D88CC1;
+    font-family: Helvetica;
+}
+
+.h2Section2{
+    padding: 0.5em;
+    margin: 0.5em;
+    background-color: #A372F7;
+    font-family: Helvetica;
+}
+
+.h2Section3{
+    padding: 0.5em;
+    margin: 0.5em;
+    background-color: #7777F0;
+    font-family: Helvetica;
+}
+
+/*Defineix com ha de ser l'estil de la barra que està a sota del tot (footer)*/
+
+footer{
+    text-align: center;
+    margin: 0.5em;
+    background-color: #1C061A;
+    color: white;
+    font-family: Arial;
+}
